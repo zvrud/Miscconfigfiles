@@ -1,0 +1,80 @@
+
+general.live_config_reload = true
+#working_directory = "<string>"
+
+[window]
+#dimensions = { columns = 135, lines = 30 }
+#padding = { x = 4, y = 2 }
+dynamic_padding = true
+decorations = "none"
+
+#opacity = 0.9
+#opacity = 0.8
+opacity = 0.5
+# opacity = 0.7
+title = "Alacritty"
+
+[font]
+normal = { family = "CaskaydiaCove Nerd Font Mono", style = "Regular" }
+bold = { family = "CaskaydiaCove Nerd Font Mono", style = "Regular" }
+italic = { family = "CaskaydiaCove Nerd Font Mono", style = "Regular" }
+size = 12.0
+
+
+#Tokyo Night
+# [colors.bright]
+# black = "#444b6a"
+# blue = "#7da6ff"
+# cyan = "#0db9d7"
+# green = "#b9f27c"
+# magenta = "#bb9af7"
+# red = "#ff7a93"
+# white = "#acb0d0"
+# yellow = "#ff9e64"
+#
+# [colors.normal]
+# black = "#32344a"
+# blue = "#7aa2f7"
+# cyan = "#449dab"
+# green = "#9ece6a"
+# magenta = "#ad8ee6"
+# red = "#f7768e"
+# white = "#787c99"
+# yellow = "#e0af68"
+#
+# [colors.primary]
+# background = "#1a1b26"
+# foreground = "#a9b1d6"
+
+
+
+[selection]
+save_to_clipboard = true
+
+[bell]
+#command = { program = "<string>", args = ["<string>",] }
+
+[cursor]
+# style = { shape = "Beam", blinking = "On" }
+style = { shape = "Underline", blinking = "On" }
+vi_mode_style = { shape = "Underline", blinking = "On" } 
+blink_interval = 500
+unfocused_hollow = false
+
+[terminal]
+#shell = "powershell"
+# shell = "wsl"
+# shell = { program = "wsl", args = ["--", "/home/linuxbrew/.linuxbrew/bin/tmux"] }
+shell = { program = "wsl", args = ["--", "tmux"] }
+# shell = { program = "wsl", args = ["-e",] }
+# shell = { program = "wsl", args = ["~",] }
+osc52 = "CopyPaste"
+
+[keyboard]
+# bindings = [{ key = "t", mods = "Control | Shift", action = "CreateNewWindow"  },]
+# mac
+# bindings = [{ key = "t", mods = "Control | Shift", action = "CreateNewTab"  },]
+
+# bindings = [{ key = "PageUp", mods = "Shift", action = "ScrollHalfPageUp"  },]
+# bindings = [{ key = "PageDown", mods = "Shift", action = "ScrollHalfPageDown"  },]
+
